@@ -1,0 +1,389 @@
+/* CSS Document */
+
+body {
+	
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	margin:0px;
+	padding:0px;
+	
+}
+
+#play_area {
+	
+	float:left;
+	position:absolute;
+	width:400px;
+	left:35%;
+	right:35%;
+	
+}
+
+#board {
+	
+	margin-top:52px;
+	
+}
+
+.left_most_col {
+	
+	border-left:2px solid #503205;
+		
+}
+
+.bottom_most_row {
+	
+	border-bottom:2px solid #503205;
+	
+}
+
+.square {
+	
+	float:left;
+	width:50px;
+	height:50px;
+	
+	border-top:2px solid #503205;
+	border-right:2px solid #503205;
+	
+	background-color:#7B531C;
+	
+}
+
+.row {
+	
+	clear:both;
+	
+}
+
+.black_circle {
+	
+	/* This Offset is to accomodate the 1px size of the border for each square on the board */
+	margin-left:1px;
+	margin-top:1px;
+	width:48px;
+	height:48px;
+	
+	-moz-border-radius: 25px;  
+    -webkit-border-radius: 25px;  
+	border-radius: 25px;
+	
+	background-color:#000;
+	
+	border:1px solid #000;
+	
+}
+
+.white_circle {
+	
+	/* This Offset is to accomodate the 1px size of the border for each square on the board */
+	position:absolute;
+	margin-left:1px;
+	margin-top:1px;
+	width:48px;
+	height:48px;
+	
+	-moz-border-radius: 25px;  
+    -webkit-border-radius: 25px;  
+	border-radius: 25px;
+	
+	background-color:#FFF;
+	
+	border:1px solid #000;
+	
+}
+
+#new_game {
+	
+	float:left;
+	clear:both;
+	margin-top:10px;
+	width:104px;
+	
+}
+
+#leaderboard {
+	
+	padding-bottom:10px;
+	/*float:left;*/
+	clear:both;
+	margin-top:10px;
+	width:360px;
+	
+	background-color:#CCC;
+	border:3px solid #BBB;
+	
+}
+
+#leaderboard_title {
+	
+	width:350px;
+	background-color:#BBB;
+	color:#FFF;
+	padding-left:10px;
+	margin-bottom:10px;
+	
+}
+
+#player1_stats {
+	
+	margin-left:10px;
+	margin-bottom:10px;
+	
+}
+
+.player {
+	
+	font-weight:bold;
+	color:#333;
+	
+}
+
+.wins {
+	
+	float:right;
+	position:relative;
+	right:106px;
+	width:50px;
+	text-align:center;
+	
+}
+
+.losses {
+	
+	float:right;
+	position:relative;
+	/*right:54px;*/
+	width:50px;
+	text-align:center;
+	
+}
+
+.draws {
+	
+	float:right;
+	position:relative;
+	left:102px;
+	width:50px;
+	text-align:center;
+	
+}
+
+#player2_stats {
+	
+	margin-left:10px;
+	
+}
+
+#choose_color {
+	
+	float:left;
+	position:relative;
+	left:157px;
+	margin-top:10px;
+	
+	padding:0px;
+	
+	-moz-border-radius: 5px;  
+    -webkit-border-radius: 5px;  
+	border-radius: 5px;
+	
+	border:1px solid #036;
+	background-color:#EEE;
+	
+	font-size:16px;
+	
+}
+
+#choose_color_title {
+	
+	float:left;
+	position:relative;
+	right:80px;
+	width:125px;
+	text-align:right;
+	margin-top:12px;
+	color:#036;
+	font-weight:bold;
+	margin-right:10px;
+	
+}
+
+#white {
+	
+	float:left;
+	color:#036;
+	padding-left:5px;
+	padding-right:5px;
+	cursor:pointer;
+	
+}
+
+#black {
+	
+	float:left;
+	color:#036;
+	padding-left:5px;
+	padding-right:5px;
+	cursor:pointer;
+	
+}
+
+#white_selected {
+	
+	float:left;
+	padding-left:5px;
+	padding-right:5px;
+	cursor:pointer;
+	
+	-moz-border-radius: 3px 0px 0px 3px;  
+    -webkit-border-radius: 3px 0px 0px 3px;   
+	border-radius: 3px 0px 0px 3px;  
+	
+	background-color:#036;
+	border:1px solid #036;
+	color:#EEE;
+	
+}
+
+#black_selected {
+	
+	float:left;
+	padding-left:5px;
+	padding-right:5px;
+	cursor:pointer;
+	
+	-moz-border-radius: 0px 3px 3px 0px;  
+    -webkit-border-radius: 0px 3px 3px 0px;   
+	border-radius: 0px 3px 3px 0px;  
+	
+	background-color:#036;
+	border:1px solid #036;
+	color:#EEE;
+	
+}
+
+#dialog_box {
+	
+	float:left;
+	position:relative;
+	left:31px;
+	top:-270px;
+	width:300px;
+	background-color:#DDD;
+	border:3px solid #CCC;
+	
+}
+
+#dialogue {
+	
+	padding:10px;
+	text-align:center;
+	margin:0 auto;
+	
+}
+
+#ok {
+	
+	margin-top:10px;
+	
+}
+
+#calculations {
+	
+	margin-top:80px;
+	position:relative;
+	width:250px;
+	height:500px;
+	overflow:auto;
+	left:75%;
+	
+}
+
+#calc_title {
+	
+	font-size:18px;
+	margin-bottom:10px;
+	
+}
+
+#title {
+	
+	margin-top:-60px;
+	font-size:18px;
+	color:#06C;
+	margin-bottom:10px;
+	
+}
+
+#title_note {
+	
+	margin-left:20px;
+	font-size:12px;
+	
+}
+
+#achieve {
+	
+	color:#FF6;
+	text-shadow:1px 1px #036;
+	font-size:18px;
+	
+}
+
+#achieve_text {
+	
+	font-size:12px;
+	font-style:italic;
+	
+}
+
+#instructions {
+	
+	float:left;
+	margin-top:-60px;
+	
+}
+
+
+#instruction_title {
+	
+	color:#06C;
+	margin-bottom:10px;
+	
+}
+
+.rule {
+	
+	float:left;
+	font-size:12px;
+	margin-bottom:10px;
+	width:100%;
+	
+}
+
+.rule_num {
+	
+	float:left;
+	margin-right:10px;
+	
+}
+
+.rule_text {
+	
+	float:left;
+	width:90%;
+	
+}
+
+.highlight {
+	
+	color:#06C;
+	
+}
+
+#mouse_position {
+	
+	visibility:collapse;
+	
+}
